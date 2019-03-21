@@ -1,0 +1,72 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo para Meetup",
+  "main": "index.js",
+  "bin": {
+    "myapp" : "./cli.js",
+    "myapp2": "node ./cli1.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["meetup", "marzo", "LimaJS"],
+  "homepage": "https://github.com/MaiaRojas/demo",
+  "bugs": {
+    "url": "https://github.com/owner/project/issues",
+    "email": "project@hostname.com"
+    },
+  "author": "Maia Rojas <maia.rt.46@gmail.com> (https://corchángulos)",
+  "contributors": [
+    "Flavio Copes <flavio@flaviocopes.com> (https://flaviocopes.com)"
+  ],
+  "contributors2": [
+    { "name": "Your Friend", "email": "friend@example.com", "url": "http://friends-website.com" },
+    { "name": "Other Friend", "email": "other@example.com", "url": "http://other-website.com" }
+  ],
+  "license": "ISC",
+  "files": [
+    "lib/",
+    "index.js",
+    "request.js"
+  ],
+  "man" : "./man/doc.1",
+  "directories": {
+    "bin": "./bin",
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/cli.git"
+  },
+  "config" : {
+    "port" : "8080"
+  },
+  "engines": {
+    "node": "≥ 6.0.0",
+    "npm": "≥ 3.0.0"
+  },
+  "dependencies" : {
+    "foo" : "1.0.0 - 2.9999.9999",
+    "foo2": ">=version1 <=version2",
+    "bar" : ">=1.0.2 <2.1.2",
+    "baz" : ">1.0.2 <=2.3.4",
+    "boo" : "2.0.1",
+    "qux" : "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+    "asd" : "http://asdf.com/asdf.tar.gz",
+    "til" : "~1.2",
+    "elf" : "~1.2.3",
+    "two" : "2.x",
+    "thr" : "3.3.x",
+    "lat" : "latest",
+    "dyl" : "file:../dyl",
+    "express": "expressjs/express",
+    "mocha": "mochajs/mocha#4727d357ea",
+    "module": "user/repo#feature\/branch"
+    },
+  "os": ["darwin", "linux"],
+  "os1": ["!win32"],
+  "cpu" : [ "x64", "ia32" ],
+  "browser": "index.js"
+}

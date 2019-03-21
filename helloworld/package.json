@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hola",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "say-hello": "echo 'Hello World'",
+    "awesome-npm": "npm run  say-hello &&  echo 'NPM is awesome!'",
+    "bash-hello": "bash hello.sh",
+    "js-add": "./add",
+    "js-add2": "node add2.js",
+    "script-1": "echo 'I am script 1'",
+    "script-2": "npm run script-1 &&  echo 'I am script-2'",
+    "say-hello-again": "echo 'Hello world again'",
+    "presay-hello-again": "echo 'I run before say-hello'",
+    "postsay-hello-again": "echo 'I run after say-hello'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+//shebang /hashbang  `#` = hash && `!` =>  bang
+// add.js
+// adds two integers received as command line arguments
+
+function add(a, b) {
+  return parseInt(a) + parseInt(b)
+}
+
+if (!process.argv[2] || !process.argv[3]) {
+  console.log('Necesitamos 2 argumentos')
+} else {
+  console.log('La suma de ambos argumentos es => ', add(process.argv[2], process.argv[3]))
+}
